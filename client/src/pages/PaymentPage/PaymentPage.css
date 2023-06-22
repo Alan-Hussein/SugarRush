@@ -1,0 +1,95 @@
+.payment-page-container {
+  background-color: #fe97c4;
+  width: 70%;
+  margin: 20px auto 40px;
+}
+
+.payment-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.payment-title {
+  font-family: "Abril Fatface", cursive;
+  font-weight: 10;
+  font-size: 3em;
+  line-height: 3.3rem;
+  color: white;
+  padding: 2rem;
+  margin: 0;
+}
+.payment-text-block {
+  font-family: "Comfortaa";
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.payment-text {
+  font-family: "Comfortaa";
+  font-size: 1.5rem;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.payment-text-name {
+  font-family: "Comfortaa";
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.payment-subtitle {
+  font-family: "Comfortaa";
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-align: center;
+  color: black;
+  padding: 0 2rem;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.payment-text-black {
+  font-family: "Comfortaa";
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: black;
+  margin-top: 1rem;
+  font-style: italic;
+}
+
+.payment-button {
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.payment-link-main-page {
+  font-family: "Comfortaa", cursive;
+  font-size: 15px;
+  width: 30%;
+  text-decoration: none;
+  text-align: center;
+  color: #fe97c4;
+  letter-spacing: 2px;
+  margin: 20px auto;
+  background-color: #fee588;
+  padding: 10px;
+}

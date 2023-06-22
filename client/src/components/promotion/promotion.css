@@ -1,0 +1,107 @@
+.promotion {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  background-color: #05e0dc;
+  position: relative;
+}
+
+.promotion-main-container {
+  position: relative;
+  top: 12%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+}
+
+.promotion-image {
+  position: relative;
+  width: 30vw;
+  height: 600px;
+  object-fit: cover;
+}
+
+.promotion-title {
+  color: white;
+  width: 40vw;
+  font-family: "Abril Fatface";
+  font-weight: 10;
+  font-size: 3rem;
+  line-height: 3.3rem;
+  text-align: center;
+}
+
+.promotion-button {
+  color: white;
+  background-color: #f095c4;
+  border: none;
+  font-family: "Comfortaa", cursive;
+  font-size: 15px;
+  width: 300px;
+  height: 45px;
+}
+
+.promotion-button:hover {
+  font-style: italic;
+  cursor: pointer;
+}
+
+.promotion-popup {
+  position: absolute;
+  left: 40rem;
+  top: 0rem;
+  background-color: #f095c4;
+  color: white;
+  width: 47vw;
+  height: 600px;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.promotion-popup-text {
+  font-family: "Comfortaa", cursive;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 300;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  text-align: center;
+  position: relative;
+  top: 3rem;
+}
+
+.promotion-popup-link {
+  font-family: "Comfortaa", cursive;
+  text-align: center;
+  padding-top: 100px;
+  font-size: 1rem;
+  text-decoration: none;
+  color: white;
+}
+
+.promotion-popup-link:hover {
+  font-style: italic;
+}
+
+.promotion-popup-multiply {
+  width: 48px;
+  margin: 7px 7px 0 auto;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .promotion-title {
+    width: 60vw;
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .promotion-button {
+    width: 200px;
+  }
+}

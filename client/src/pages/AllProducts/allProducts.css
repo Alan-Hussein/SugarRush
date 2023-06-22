@@ -1,0 +1,272 @@
+.categories-div,
+.categories-div button,
+.sorting-button,
+.categories {
+  font-family: Comfortaa;
+}
+.product-page-title {
+  font-family: "Abril Fatface";
+  font-weight: 100;
+  color: #f19cbd;
+  font-size: 3.5rem;
+  margin-left: 12%;
+  width: 470px;
+}
+
+.sortAndFilter {
+  display: flex;
+  font-size: 1.8rem;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.invisible {
+  width: 0px;
+  height: 0px;
+}
+.categories {
+  margin-left: 12%;
+}
+.categories-div {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 12%;
+  margin-bottom: 30px;
+  width: 75vw;
+}
+
+.category-button {
+  background: none;
+  border: none;
+  font-size: 1.3rem;
+}
+
+.category-button:hover {
+  color: #f19cbd;
+  font-style: italic;
+  cursor: pointer;
+}
+
+.sorting-div {
+  display: flex;
+  flex-direction: row;
+  width: 75vw;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-left: 12%;
+  margin-bottom: 2%;
+}
+
+.sorting-button {
+  color: black;
+  margin: 5px;
+  padding: 15px;
+  background: none;
+  border: 3px solid #f19cbd;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sorting-button:hover {
+  color: white;
+  background-color: #f19cbd;
+}
+.product-container {
+  margin-left: 12%;
+  width: 80vw;
+  display: flex;
+}
+.product-display-grid {
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 75vw;
+}
+
+.header-categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #fee588;
+}
+
+.categories-title {
+  text-align: center;
+  color: #f095c4;
+  margin: 30px 0 50px 0;
+  font-size: 2.3rem;
+}
+
+.product-display-component {
+  display: grid;
+  width: 18em;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.product-name {
+  line-height: 20px;
+  font-family: "Abril Fatface", cursive;
+}
+
+.product-price {
+  color: #f481bb;
+  font-size: 2.4rem;
+  font-family: "Abril Fatface";
+}
+
+.product-overview-name {
+  color: black;
+  font-size: 1.2em;
+  text-decoration: none;
+  display: inline-block;
+  margin: 5px 0 15px;
+}
+
+.product-overview img {
+  width: 100%;
+  margin: 1em 0;
+}
+
+.white-background {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  background-color: rgba(249, 248, 248, 0.7);
+  z-index: 10;
+  position: relative;
+  top: -170px;
+  width: 80%;
+  height: 120%;
+}
+
+.product-options {
+  margin-top: 20px;
+  display: flex;
+  align-self: center;
+  justify-content: space-evenly;
+  width: 65%;
+}
+
+.product-overview div {
+  display: flex;
+  justify-content: center;
+  margin: 1em 0;
+}
+
+.active {
+  color: brown;
+}
+
+.filter-reset-button {
+  color: white;
+  background-color: #f095c4;
+  border: none;
+  font-family: "Comfortaa", cursive;
+  font-size: 15px;
+  width: 300px;
+  height: 45px;
+  padding: 10px 0;
+  margin: 30px auto;
+  margin-left: 12%;
+}
+
+.filter-reset-button:hover {
+  font-style: italic;
+  cursor: pointer;
+}
+
+.sorting-active {
+  background-color: #f19cbd;
+}
+
+.on-sale-checkbox {
+  font-size: 1.1rem;
+}
+
+.in-stock-checkbox {
+  font-size: 1.1rem;
+}
+.on-sale-checkbox:hover,
+.in-stock-checkbox:hover {
+  color: #f095c4;
+}
+
+.filter-block {
+  margin-left: 12%;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 75vw;
+  height: 7rem;
+  padding: 15px;
+  border: 3px solid #f19cbd;
+}
+
+.price-slider {
+  font-family: "Comfortaa";
+  font-size: 1.1rem;
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+}
+
+#min,
+#max {
+  background-color: #f095c4;
+  border: none;
+  border-radius: 5px;
+  height: 2rem;
+  width: 7rem;
+  font-size: 1.1rem;
+  padding-left: 0.5rem;
+  margin-left: 0.5rem;
+}
+#min,
+#max,
+.on-sale-checkbox,
+.in-stock-checkbox {
+  font-family: "Comfortaa";
+}
+
+input[type="number"] {
+  appearance: none;
+  -moz-appearance: textfield;
+}
+
+@media (max-width: 767px) {
+  /* styles for phones */
+  .product-page-title {
+    margin-left: 29%;
+    margin-top: 0;
+    font-size: 2rem;
+  }
+  .categories-div {
+    margin-left: 15%;
+    flex-direction: column;
+  }
+  .sorting-div {
+    width: 95%;
+    margin-left: 7%;
+  }
+  .filter-block,
+  .filter-reset-button {
+    margin-left: 20%;
+  }
+  .categories {
+    margin-left: 33%;
+  }
+  .product-display-grid {
+    margin-left: 11%;
+  }
+  .price-slider {
+    flex-direction: column;
+  }
+  #min,
+  #max {
+    height: 1.5rem;
+    width: 5.5rem;
+  }
+}

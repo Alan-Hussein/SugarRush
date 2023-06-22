@@ -1,0 +1,65 @@
+.personal-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.personal-form-div {
+  width: 65%;
+  padding: 0 2rem;
+}
+
+.personal-input {
+  height: 2rem;
+  font-family: "Comfortaa";
+  font-size: 1rem;
+  font-weight: 300;
+  font-style: italic;
+  color: black;
+}
+
+.input-warn {
+  border: 3px solid red;
+}
+
+.personal-form div {
+  display: flex;
+  flex-direction: column;
+}
+
+.personal-form-label {
+  font-family: "Comfortaa";
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: black;
+  text-align: center;
+  padding: 1rem;
+}
+
+.personal-info-button {
+  font-family: "Comfortaa", cursive;
+  font-size: 15px;
+  margin: 2rem;
+  width: 30%;
+  height: 40px;
+  background-color: #fee588;
+  cursor: pointer;
+  color: #f19cbd;
+  letter-spacing: 2px;
+  border: none;
+}
+
+.personal-info-button:hover {
+  font-style: italic;
+}
+
+@media (max-width: 1024px) {
+  .personal-form {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    width: 80%;
+  }
+}

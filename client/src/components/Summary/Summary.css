@@ -1,0 +1,58 @@
+.cart-summary {
+  display: flex;
+  flex-direction: column;
+  background-color: #fe97c4;
+  width: 30%;
+  margin: 30px 0 30px 50%;
+}
+
+.cart-summary-text {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 20px 30px;
+  color: black;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  font-family: "Comfortaa";
+}
+
+.cart-summary-page-title {
+  font-family: "Comfortaa";
+  margin: 20px 0 20px 30px;
+  color: black;
+  font-size: 1.7rem;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+.cart-summary-price {
+  margin: 0 30px;
+}
+
+.cart-payment-link {
+  font-family: "Comfortaa", cursive;
+  font-size: 15px;
+  width: 80%;
+  text-decoration: none;
+  text-align: center;
+  color: #fe97c4;
+  letter-spacing: 2px;
+  margin: 20px auto;
+  background-color: #fee588;
+  padding: 10px;
+}
+.cart-payment-link:hover {
+  font-style: italic;
+}
+
+.cart-payment-link-container {
+  display: flex;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .cart-summary {
+    width: 80%;
+    margin: 30px 0 30px 10%;
+  }
+}

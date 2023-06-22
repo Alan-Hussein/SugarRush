@@ -1,0 +1,385 @@
+.header {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  background-color: #fee588;
+}
+.header-elements {
+  width: 100%;
+  padding: 0 7rem 0 7rem;
+}
+
+.navbar-main-elements {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-allProducts {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fee588;
+  position: relative;
+  height: 250px;
+}
+
+.header-logo {
+  width: 10rem;
+  transition: width 0.5s ease;
+}
+.sections {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+}
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom-section {
+  position: relative;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 1rem;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.nav-buttons {
+  margin: 0;
+}
+
+.header-search-block {
+  display: flex;
+  flex-direction: column;
+  margin: 100px 0 0 40%;
+}
+
+.header-search-input {
+  width: 60%;
+  height: 40px;
+  border: none;
+  border-radius: 3px;
+  font-family: "Comfortaa", cursive;
+  font-size: 1;
+  padding-left: 20px;
+}
+
+.header-category-list-block {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.header-category-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.header-category-arrow {
+  position: relative;
+}
+.header-category-arrow:hover {
+  color: #fe97c4;
+}
+
+.all-products-link {
+  color: black;
+  margin-left: 1rem;
+  font-family: "Comfortaa", cursive;
+  font-size: 1em;
+  text-decoration: none;
+}
+.all-products-link:hover {
+  font-style: italic;
+  color: #fe97c4;
+}
+
+.all-products-link:active {
+  color: black;
+}
+
+.header-category-title {
+  font-family: "Comfortaa", cursive;
+  font-size: 1em;
+  position: relative;
+  top: 4px;
+  margin: 0;
+  padding: 0;
+}
+
+.header-category-list-item {
+}
+
+.header-category-list-item a {
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Comfortaa", cursive;
+  font-size: 1em;
+  line-height: 1.3rem;
+
+  font-weight: 300;
+  display: inline-block;
+  color: black;
+}
+
+.header-category-list-item a:hover {
+  color: #fe97c4;
+  font-style: italic;
+}
+
+.header-favorites-button {
+  height: 25px;
+  cursor: pointer;
+}
+
+.header-buttons {
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+  height: 50px;
+  align-items: baseline;
+}
+
+.cart-and-favorites-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.header-favorites-button-image {
+  color: black;
+}
+
+.header-favorites-button-image:hover {
+  color: yellow;
+}
+.header-favorites-button-image:active {
+  color: black;
+}
+.header-cart-button-image {
+  color: black;
+  margin: 10px;
+}
+.header-cart-button-image:hover {
+  color: yellow;
+}
+.header-cart-button-image:active {
+  color: black;
+}
+
+.donut {
+  position: relative;
+  left: 75%;
+  bottom: 4rem;
+  margin: 0px;
+}
+
+.donut-one {
+  position: relative;
+  height: 10rem;
+}
+.donut-two {
+  position: relative;
+  height: 8rem;
+  top: 2rem;
+  right: 2rem;
+}
+
+.header-cart-button {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  height: 45px;
+  cursor: pointer;
+}
+.cart-sum {
+  font-family: "Comfortaa", cursive;
+  font-size: 1.2em;
+
+  padding: 0;
+  color: #fe97c4;
+}
+
+.header-title {
+  font-family: "Abril Fatface", cursive;
+  font-weight: 10;
+  color: #fe97c4;
+  font-size: 3em;
+  line-height: 3.3rem;
+  text-align: center;
+  width: 100%;
+  margin-top: -2rem;
+}
+
+.header-donut {
+  width: 100px;
+  height: 100px;
+}
+
+.header-search-suggestion {
+  text-decoration: none;
+  margin: 5px 15px 0 15px;
+  font-family: "Comfortaa", cursive;
+  font-size: 1em;
+  line-height: 1.3rem;
+  font-weight: 300;
+  cursor: pointer;
+  display: inline-block;
+  color: white;
+}
+
+.header-search-suggestion:hover {
+  color: white;
+  font-style: italic;
+}
+
+.header-search-suggestion-block {
+  position: absolute;
+  z-index: 10;
+  top: 125px;
+  width: 34%;
+  background-color: #fe97c4;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.invisible {
+  opacity: 0;
+  cursor: default;
+  pointer-events: none;
+}
+
+@media (max-width: 885px) {
+  .header-logo {
+    width: 8rem;
+  }
+  .donut {
+    display: none;
+  }
+  .header {
+    height: 450px;
+  }
+  .header-title {
+    margin-top: 6.5rem;
+  }
+  .header-search-suggestion-block {
+    top: 110px;
+  }
+  .header-elements {
+    padding: 0 5rem 0 5rem;
+  }
+}
+
+@media (max-width: 785px) {
+  .header {
+    height: 450px;
+  }
+  .bottom-section {
+    flex-direction: column;
+    align-items: baseline;
+  }
+  .all-products-link {
+    position: relative;
+    margin-left: 0;
+  }
+  .header-category-list {
+    position: absolute;
+    left: 8rem;
+    top: 0.3rem;
+  }
+  .header-title {
+    margin-top: 5rem;
+  }
+  .header-search-suggestion-block {
+    top: 95px;
+  }
+}
+
+@media (max-width: 700px) {
+  .header-logo {
+    width: 7rem;
+  }
+  .header-search-suggestion-block {
+    top: 85px;
+    width: 35%;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-logo {
+    width: 8rem;
+  }
+  .top-section {
+    align-items: baseline;
+
+    flex-direction: column;
+  }
+  .cart-and-favorites-buttons {
+    margin-top: 1rem;
+  }
+  .header-search-input {
+    width: 90%;
+  }
+  .sections {
+    margin-left: 1rem;
+  }
+  .header-title {
+    font-size: 2.5em;
+    line-height: 2.3rem;
+  }
+  .header-search-suggestion-block {
+    top: 75px;
+    width: 45%;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-title {
+    font-size: 2em;
+    line-height: 2.3rem;
+  }
+  .header-elements {
+    padding: 0 2rem 0 2rem;
+  }
+  .header-category-list {
+    width: 7rem;
+  }
+  .header-title {
+    margin-top: 6rem;
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .header-category-list {
+    position: absolute;
+    left: 0;
+    top: 4rem;
+  }
+  .header-title {
+    display: none;
+  }
+  .header {
+    height: 350px;
+  }
+}
