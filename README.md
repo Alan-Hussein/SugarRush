@@ -5,7 +5,7 @@ This is the final project for the HackYourFuture curriculum we did as a class us
 ![website](https://github.com/Alan-Hussein/SugarRush/blob/master/sugarRush.png)
 
 
-`[Click here for the Demo version](https://c41-team-one.herokuapp.com/)`
+[Click here for the Demo version](https://c41-team-one.herokuapp.com/)
 
 ## 1. Setup
 
